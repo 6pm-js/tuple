@@ -1,0 +1,10 @@
+framework: mocha
+src_files:
+ - lib/tuple.js
+ - lib/tuplemap.js
+ - node_modules/should/should.min.js
+ - test/*.spec.js
+launchers:
+  Node:
+    command: ./node_modules/.bin/mocha -r test/node.setup.js -R tap test/*.spec.js
+    protocol: tap

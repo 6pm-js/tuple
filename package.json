@@ -1,0 +1,37 @@
+{
+  "name": "@6pm/tuple",
+  "version": "1.0.0",
+  "author": "James Andrews <jka6502@gmail.com>",
+  "description": "Immutable singleton tuple types",
+  "keywords": [
+    "tuple",
+    "map",
+    "weakmap"
+  ],
+  "scripts": {
+    "test": "node ./node_modules/testem/testem.js -f test/testem.yml",
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- test/coverage.js",
+    "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "main": "lib/tuple.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.0.0",
+    "should": "^8.2.2",
+    "testem": "^1.2.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/6pm-js/tuple.git"
+  },
+  "license": "MIT"
+}
