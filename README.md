@@ -1,6 +1,8 @@
 6pm Tuple
 ---------
 
+[![Build Status](https://travis-ci.org/6pm-js/tuple.svg?branch=master)](https://travis-ci.org/6pm-js/tuple) [![Coverage Status](https://coveralls.io/repos/github/6pm-js/tuple/badge.svg?branch=master)](https://coveralls.io/github/6pm-js/tuple?branch=master)
+
 The `@6pm/tuple` package implements tuples as immutable arrays of values, with
 the additional guarantee that each combination of values is represented by a
 singleton tuple instance.
