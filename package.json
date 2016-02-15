@@ -1,7 +1,7 @@
 {
   "name": "@6pm/tuple",
   "version": "1.0.0",
-  "author": "James Andrews <jka6502@gmail.com>",
+  "author": "James Andrews <jka6510@gmail.com>",
   "description": "Immutable singleton tuple types",
   "keywords": [
     "tuple",
